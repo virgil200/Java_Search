@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: public-records-search-java
+    runtime: docker
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /health
